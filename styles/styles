@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+  }
+
+body {
+    margin: 0;
+}
+  
+  h2 {
+    color: #0082C6;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 34px;
+    font-weight: 100;
+    text-align: center;
+    margin: 0;
+}
+
+
+h3 {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    margin: 0;
+}
+
+.heading_border {
+    background-color: #0082C6;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-color: #0082C6;
+    border-width: 50px;
+    margin: 0;
+    width: 100px;
+}
+
+h4 {
+    color: #0082C6;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+}
+
+h5 {
+    color: #0082C6;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.step-list {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    margin-left: -20px;
+    margin-bottom: 5px;
+}
+
+.step {
+    float: right;
+    margin: 2px;
+    width: 90px; 
+
+}
+
+.container {
+    justify-content: center;
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background: #D5E7F7;
+  }
+
+.container-steps {
+    display: flex; 
+    justify-content: center;
+    align-items: top;
+    gap:20px; 
+    flex-wrap: wrap;
+    width: 100%;
+    background: #D5E7F7 url('../images/mountains.png') bottom no-repeat;
+    padding-right: 30px;
+  }
+
+  .box-steps { 
+    width: 300px;
+    padding: 1em;
+    min-height:  440px;
+  }
+
+  .box-steps-border { 
+    width: 300px;
+    border-style:solid;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-color: #0082C6;
+    border-width: 2px;
+    padding: 1em;
+    min-height:  440px;
+    background-color: white;
+  }
+
+ /* Responsive Box heights */
+@media (max-width: 600px) {
+  .box-steps {
+    width: 300px;
+    padding: 1em;
+    min-height: 300px;
+  }
+.box-steps-border { 
+    width: 300px;
+    border-style:solid;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-color: #0082C6;
+    border-width: 2px;
+    padding: 1em;
+    min-height: 300px;
+  }
+}
