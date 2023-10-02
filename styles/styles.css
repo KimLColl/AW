@@ -46,6 +46,13 @@ h5 {
     font-weight: 100;
 }
 
+p {
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 100;
+}
+
 .step-list {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
@@ -64,10 +71,11 @@ h5 {
     justify-content: center;
     width: 100%;
     padding-top: 40px;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
     padding-left: 15px;
     padding-right: 15px;
     background: #D5E7F7;
+    text-align: center;
   }
 
 .container-steps {
