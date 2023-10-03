@@ -34,7 +34,7 @@ h3 {
 }
 
 h4 {
-    color: #0082C6;
+    color: #FDB92E;
     font-family: 'Open Sans', sans-serif;
     font-size: 22px;
 }
@@ -74,7 +74,7 @@ p {
     padding-bottom: 10px;
     padding-left: 15px;
     padding-right: 15px;
-    background: #D5E7F7;
+    background: #F4F4F4;
     text-align: center;
   }
 
@@ -85,8 +85,9 @@ p {
     gap:20px; 
     flex-wrap: wrap;
     width: 100%;
-    background: #D5E7F7 url('../images/mountains.png') bottom no-repeat;
+    background: #F4F4F4 url('../images/blue_mountains.png') bottom no-repeat;
     padding-right: 30px;
+    padding-bottom: 30px;
   }
 
   .box-steps { 
@@ -124,4 +125,12 @@ p {
     padding: 1em;
     min-height: 300px;
   }
+}
+
+.centre-image {
+  margin: auto;
+  padding-top: 15px;
+  display: block;
+  width: 200px;
+  height: auto;
 }
